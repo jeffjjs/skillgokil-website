@@ -5,11 +5,11 @@ Landing page sederhana yang di-deploy menggunakan **Netlify** dan otomatis updat
 ---
 
 ## 🌍 Site Info
-- **Site Name:** clever-pegasus-3be15a  
+- **Site Name:** melodious-sunflower-8a3c09  
 - **Site ID:** 6df3b67b-07e0-4e93-9a4e-cd9cbe86d4c8  
-- **Deploy URL:** [https://clever-pegasus-3be15a.netlify.app](https://clever-pegasus-3be15a.netlify.app)
+- **Deploy URL:** [https://melodious-sunflower-8a3c09.netlify.app](https://melodious-sunflower-8a3c09.netlify.app)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6df3b67b-07e0-4e93-9a4e-cd9cbe86d4c8/deploy-status)](https://app.netlify.com/sites/clever-pegasus-3be15a/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6df3b67b-07e0-4e93-9a4e-cd9cbe86d4c8/deploy-status)](https://app.netlify.com/sites/melodious-sunflower-8a3c09/deploys)
 
 ---
 
