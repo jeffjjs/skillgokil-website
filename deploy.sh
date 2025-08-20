@@ -9,7 +9,7 @@ README="README.md"
 if [ -z "$1" ]
   then
     echo "❌ Error: Harap masukkan pesan commit."
-    echo "👉 Contoh: ./deploy.sh 'update landing page'"
+    echo "👉 Contoh: ./deploy.sh 'update yyyymmddHHMM'"
     exit 1
 fi
 

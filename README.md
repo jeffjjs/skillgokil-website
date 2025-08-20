@@ -20,14 +20,14 @@
 ## 📂 Struktur Project
 
 ```
-📦 project-root
- ┣ 📂 src
- ┣ 📂 public
- ┣ 📂 dist
- ┣ 📂 .github/workflows
- ┃ ┗ 📜 deploy.yml
- ┣ 📜 package.json
- ┣ 📜 README.md
+📦 skillgokil-website (root main)
+ ├── 📂 .github/workflows/
+ │   └── 📜 deploy.yml
+ ├── 📂 assets/
+ ├── 📜 deploy.sh
+ ├── 📜 index.html
+ ├── 📜 README.md
+ └── 📜 style.css
 ```
 
 ---
@@ -44,7 +44,7 @@
 - Hubungkan GitHub repo → pilih **branch `main`**
 - Konfigurasi build command (opsional) → deploy.
 
-### 3. Deploy via GitHub Actions (CI/CD)
+### 3. Deploy via GitHub Actions (CI/CD) (yang dipakai sekarang)
 - File workflow: `.github/workflows/deploy.yml`
 - Set **Secrets** di GitHub:
   - `NETLIFY_AUTH_TOKEN`
@@ -103,5 +103,3 @@ Gunakan script otomatis:
 
 ## 📌 Last Deploy
 Terakhir di-deploy via GitHub Actions (CI/CD). Status: ![Netlify Status](https://api.netlify.com/api/v1/badges/117540d3-69c7-4ca2-9d38-5710bd11e8c0/deploy-status)
-
-Last Deploy: 2025-08-20 11:17:00
