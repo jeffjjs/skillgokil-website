@@ -1,4 +1,4 @@
-# SkillGokil Website
+# 🌍 SkillGokil Website
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/117540d3-69c7-4ca2-9d38-5710bd11e8c0/deploy-status)
 [![Deploy to Netlify](https://github.com/jeffjjs/skillgokil-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/jeffjjs/skillgokil-website/actions)
@@ -14,6 +14,21 @@
 
 ## 📂 Repository
 - GitHub: [https://github.com/jeffjjs/skillgokil-website](https://github.com/jeffjjs/skillgokil-website)
+
+---
+
+## 📂 Struktur Project
+
+```
+📦 project-root
+ ┣ 📂 src
+ ┣ 📂 public
+ ┣ 📂 dist
+ ┣ 📂 .github/workflows
+ ┃ ┗ 📜 deploy.yml
+ ┣ 📜 package.json
+ ┣ 📜 README.md
+```
 
 ---
 
@@ -88,5 +103,3 @@ Gunakan script otomatis:
 
 ## 📌 Last Deploy
 Terakhir di-deploy via GitHub Actions (CI/CD). Status: ![Netlify Status](https://api.netlify.com/api/v1/badges/117540d3-69c7-4ca2-9d38-5710bd11e8c0/deploy-status)
-
-Last Deploy: 2025-08-19 18:31:25
