@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Deploy to Netlify
 
 on:
   push:
@@ -10,16 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
+      
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v2
+        uses: nwtgck/actions-netlify@v2.0.0
         with:
-          publish-dir: ./
-          production-deploy: true
+          publish-dir: ./dist
+          production-branch: main
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "🚀 Deploy from GitHub Actions"
-          enable-pull-request-comment: false
           enable-commit-comment: false
+          enable-pull-request-comment: false
+          enable-commit-status: true
+          alias: deploy-preview
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_SITE_ID: 117540d3-69c7-4ca2-9d38-5710bd11e8c0
