@@ -63,7 +63,8 @@ Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis didepl
 
 ## 🛠️ Development
 
-### Clone & Jalankan Lokal 
+### Clone & Jalankan Lokal
+
 ```bash
 git clone https://github.com/jeffjjs/skillgokil-website.git
 cd skillgokil-website
@@ -96,5 +97,3 @@ Terakhir di-deploy via GitHub Actions (CI/CD). Status: ![Netlify Status](https:/
 
 
 
-
-Last Deploy: 2025-08-21 23:54:57
