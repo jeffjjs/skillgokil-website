@@ -22,7 +22,6 @@ Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis didepl
 ---
 
 ## 📂 Struktur Project
-
 ```
 **📦 skillgokil-website (root main)**
  ├── 📂 .github/workflows/
@@ -59,7 +58,6 @@ Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis didepl
 - Login ke Netlify → **New Site from Git**
 - Hubungkan GitHub repo → pilih **branch `main`**
 - Konfigurasi build command (opsional) → deploy.
-```
 
 ---
 
@@ -98,5 +96,3 @@ Terakhir di-deploy via GitHub Actions (CI/CD). Status: ![Netlify Status](https:/
 
 
 
-
-Last Deploy: 2025-08-21 23:33:10
