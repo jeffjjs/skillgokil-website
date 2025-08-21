@@ -1,8 +1,5 @@
 # 🌍 SkillGokil Website
 
-![Netlify Status](https://api.netlify.com/api/v1/badges/117540d3-69c7-4ca2-9d38-5710bd11e8c0/deploy-status)
-[![Deploy to Netlify](https://github.com/jeffjjs/skillgokil-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/jeffjjs/skillgokil-website/actions)
-
 ---
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/117540d3-69c7-4ca2-9d38-5710bd11e8c0/deploy-status)](https://app.netlify.com/sites/skillgokil/deploys)
@@ -19,17 +16,6 @@ Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis didepl
 
 ---
 
-## 🌐 Live URLs
-- Primary Domain: [https://skillgokil.id](https://skillgokil.id)
-- Netlify Subdomain: [https://skillgokil.netlify.app](https://skillgokil.netlify.app)
-- Redirect otomatis ke: [www.skillgokil.id](https://www.skillgokil.id)
-
----
-
-## 📂 Repository
-- GitHub: [https://github.com/jeffjjs/skillgokil-website](https://github.com/jeffjjs/skillgokil-website)
-
----
 ## 📂 Repository
 - GitHub: [https://github.com/jeffjjs/skillgokil-website](https://github.com/jeffjjs/skillgokil-website)
 
@@ -38,7 +24,7 @@ Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis didepl
 ## 📂 Struktur Project
 
 ```
-📦 skillgokil-website (root main)
+**📦 skillgokil-website (root main)**
  ├── 📂 .github/workflows/
  │   └── 📜 deploy.yml
  ├── 📂 assets/
@@ -73,26 +59,24 @@ Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis didepl
 - Login ke Netlify → **New Site from Git**
 - Hubungkan GitHub repo → pilih **branch `main`**
 - Konfigurasi build command (opsional) → deploy.
-
-### 3. Deploy via GitHub Actions (CI/CD) (yang dipakai sekarang)
-- File workflow: `.github/workflows/deploy.yml`
-- Set **Secrets** di GitHub:
-  - `NETLIFY_AUTH_TOKEN`
-  - `NETLIFY_SITE_ID = 117540d3-69c7-4ca2-9d38-5710bd11e8c0`
-- Workflow akan auto-run setiap ada `git push`.
-
-### 4. Deploy via CLI
-```bash
-npm install -g netlify-cli
-netlify deploy --prod
 ```
 
 ---
 
-## 🌍 Domain Settings
-- **Primary domain:** `skillgokil.id`
-- **Subdomain:** `skillgokil.netlify.app`
-- **Redirect:** `www.skillgokil.id → skillgokil.id` (dikelola otomatis Netlify)
+## 🛠️ Development
+
+### Clone & Jalankan Lokal 
+```bash
+git clone https://github.com/jeffjjs/skillgokil-website.git
+cd skillgokil-website
+(jika belum ada folder lokal sama sekali)
+```
+
+### Push Perubahan
+Gunakan script otomatis:
+```bash
+./deploy.sh "update yyyymmddHHMM"
+```
 
 ---
 
@@ -104,40 +88,13 @@ netlify deploy --prod
 
 ---
 
-## 🛠️ Development
-
-### Clone & Jalankan Lokal 
-```bash
-git clone https://github.com/jeffjjs/skillgokil-website.git
-cd skillgokil-website
-npm install   # jika ada dependency. tidak perlu jika tanpa file.json
-npm run dev   # jika menggunakan framework JS. tidak perlu jika tanpa file.json
-```
-
-### Push Perubahan
-Gunakan script otomatis:
-```bash
-./deploy.sh "update yyyymmddHHMM"
-```
-
----
-
-## ✅ Checklist
-- [x] Template awal dipasang
-- [x] Netlify site dibuat (`site name: skillgokil`)
-- [x] Domain `skillgokil.id` aktif
-- [x] CI/CD via GitHub Actions jalan
-- [ ] Tambah konten & optimasi SEO
+## 📜 Lisensi
+© 2025 Skillgokil. Semua hak dilindungi.
 
 ---
 
 ## 📌 Last Deploy
 Terakhir di-deploy via GitHub Actions (CI/CD). Status: ![Netlify Status](https://api.netlify.com/api/v1/badges/117540d3-69c7-4ca2-9d38-5710bd11e8c0/deploy-status)
 
----
-
-## 📜 Lisensi
-© 2025 Skillgokil. Semua hak dilindungi.
 
 
-Last Deploy: 2025-08-20 15:08:59

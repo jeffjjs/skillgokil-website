@@ -1,4 +1,4 @@
-name: Deploy to Netlify
+name: Build and Deploy
 
 on:
   push:
@@ -11,28 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build project
-        run: npm run build
-
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v2.0.0
+        uses: nwtgck/actions-netlify@v2
         with:
-          publish-dir: ./dist
-          production-branch: main
+          publish-dir: ./
+          production-deploy: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Deploy from GitHub Actions"
-          enable-commit-comment: false
+          deploy-message: "🚀 Deploy from GitHub Actions"
           enable-pull-request-comment: false
-          enable-commit-status: true
-          alias: deploy-preview
+          enable-commit-comment: false
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: 117540d3-69c7-4ca2-9d38-5710bd11e8c0
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
