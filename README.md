@@ -22,16 +22,14 @@ Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis didepl
 ---
 
 ## 📂 Struktur Project
-```
-**📦 skillgokil-website (root main)**
+
+📦 **skillgokil-website (root main)**
  ├── 📂 .github/workflows/
  │   └── 📜 deploy.yml
- ├── 📂 assets/
  ├── 📜 deploy.sh
  ├── 📜 index.html
  ├── 📜 README.md
  └── 📜 style.css
-```
 
 ---
 
@@ -63,12 +61,11 @@ Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis didepl
 
 ## 🛠️ Development
 
-### Clone & Jalankan Lokal
+### Clone & Jalankan Lokal (jika belum ada folder lokal sama sekali)
 
 ```bash
 git clone https://github.com/jeffjjs/skillgokil-website.git
 cd skillgokil-website
-(jika belum ada folder lokal sama sekali)
 ```
 
 ### Push Perubahan
@@ -97,5 +94,3 @@ Terakhir di-deploy via GitHub Actions (CI/CD). Status: ![Netlify Status](https:/
 
 
 
-
-Last Deploy: 2025-08-22 08:48:18
