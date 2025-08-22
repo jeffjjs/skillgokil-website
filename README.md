@@ -24,7 +24,6 @@ Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis didepl
 ## 📂 Struktur Project
 
 📦 **skillgokil-website (root main)**
-
  ├── 📂 .github/workflows/
  │   └── 📜 deploy.yml
  ├── 📜 deploy.sh
@@ -95,5 +94,3 @@ Terakhir di-deploy via GitHub Actions (CI/CD). Status: ![Netlify Status](https:/
 
 
 
-
-Last Deploy: 2025-08-22 10:05:01
