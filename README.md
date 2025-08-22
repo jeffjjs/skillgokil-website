@@ -3,6 +3,7 @@
 ---
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/117540d3-69c7-4ca2-9d38-5710bd11e8c0/deploy-status)](https://app.netlify.com/sites/skillgokil/deploys)
+
 [![GitHub Actions](https://github.com/jeffjjs/skillgokil-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/jeffjjs/skillgokil-website/actions)
 
 Website **Skillgokil** dibangun dengan HTML statis sederhana dan otomatis dideploy ke **Netlify** melalui **GitHub Actions**.
@@ -91,9 +92,7 @@ Gunakan script otomatis:
 ---
 
 ## 📌 Last Deploy
-Terakhir di-deploy via GitHub Actions (CI/CD). Status: ![Netlify Status](https://api.netlify.com/api/v1/badges/117540d3-69c7-4ca2-9d38-5710bd11e8c0/deploy-status)
+Terakhir di-deploy via GitHub Actions (CI/CD). Status:  ![Netlify Status](https://api.netlify.com/api/v1/badges/117540d3-69c7-4ca2-9d38-5710bd11e8c0/deploy-status)
 
 
 
-
-Last Deploy: 2025-08-22 10:20:17
